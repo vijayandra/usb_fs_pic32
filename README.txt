@@ -13,9 +13,9 @@ How to initial setup
 
     2. [LINUX Only] Copy following files into /etc/udev/rules.d/
 
-    linux/z011_mchp_jlink.rules
-    linux/z010_mchp_tools.rules
-    linux/50-iwscope.rules
+    udev_linux/z011_mchp_jlink.rules
+    udev_linux/z010_mchp_tools.rules
+    udev_linux/50-iwscope.rules
     This is must to bootloader will work flawless
 
     3. Add PIC32 Installation compiler path to global system path

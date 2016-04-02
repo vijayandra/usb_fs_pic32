@@ -1,6 +1,6 @@
 How to initial setup
 
-1. Install Microchip PIC32 compiler
+    1. Install Microchip PIC32 compiler,(Choose Free lincense)
 
     http://www.microchip.com/mplab/compilers
 
@@ -11,15 +11,19 @@ How to initial setup
     Mac (10.X)
         MPLAB® XC32 Compiler v1.40 	6/17/15 	64.0 MB 	ZIP
 
-2. [LINUX Only] Copy following files into /etc/udev/rules.d/
+    2. [LINUX Only] Copy following files into /etc/udev/rules.d/
 
     linux/z011_mchp_jlink.rules
     linux/z010_mchp_tools.rules
     linux/50-iwscope.rules
     This is must to bootloader will work flawless
 
-3. Add compiler path to global system path
+    3. Add PIC32 Installation compiler path to global system path
 
-   Windows
+    Windows
 
-   Linux
+    Linux
+
+    4. Do some testing about if compiler installed properly
+
+    5. Now start Learning tool
